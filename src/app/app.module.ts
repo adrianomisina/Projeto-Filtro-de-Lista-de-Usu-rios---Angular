@@ -10,15 +10,17 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
   declarations: [
     AppComponent
   ],
-  imports: [
 
-  BrowserModule,
+  imports: [
+    BrowserModule,
     AppRoutingModule,
     ComponentsModule,
   ],
+
   providers: [
     provideAnimationsAsync()
   ],
+  
   bootstrap: [AppComponent]
 })
 export class AppModule { }
